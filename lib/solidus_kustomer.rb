@@ -42,7 +42,7 @@ module SolidusKustomer
     private
 
     def kustomer_client
-      @kustomer_client ||= SolidusKustomer::Client.new(api_key: configutation.api_key)
+      @kustomer_client ||= SolidusKustomer::Client.new(api_key: configuration.api_key)
     end
   end
 end
